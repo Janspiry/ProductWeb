@@ -1,0 +1,340 @@
+/*******************************************************
+    Template Name    : Osprey - App Landing HTML Template
+    Author           : aam-developer
+    Version          : 1.0
+    Created          : 2020
+    File Description : Main Reaposive file of the template
+*******************************************************/
+
+@media screen and (max-width: 991px) and (min-width: 320px){
+    .download-app-img{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
+	.screenshort-slide-content {
+		height: 415px;
+	}
+	.screenshort-frame {
+		width: 188px;
+		height: 385px;
+		top: 15px;
+	}
+	.download-area {
+		margin-top: 0;
+	}	
+	.download-app-img {
+		margin-top: -0px;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.home-area .home-content h1 {
+		font-size: 35px;
+		line-height: 1.3;
+	}
+	.home-area .home-content p {
+		font-size: 15px;
+		line-height: 1.3;
+	}
+	.about-img {
+		margin-bottom: 30px;
+	}
+	.about-info {
+		padding-right: 0;
+	}
+	.feature-item.text-right.feature-left-content {
+		text-align: left !important;
+	}
+	.feature-item.text-right.feature-left-content .feature-dot-ring {
+		left: -9px;
+		top: -9px;
+	}
+	.feature-item.text-right.feature-left-content .feature-dot-circle {
+		top: 0;
+		left: 0;
+	}
+	.feature-images {
+		display: none;
+	}
+	.screenshort-slide-content {
+		height: 500px;
+	}
+	.screenshort-frame {
+		width: 245px;
+		height: 500px;
+		top: 0px;
+	}
+	.blog-area .blog-item {
+		margin-bottom: 30px;
+	}
+	.blog-area .blog-item:last-child {
+		margin-bottom: 0px;
+	}
+	.download-area {
+		margin-top: 0;
+	}
+	.footer-link {
+		margin-bottom: 30px;
+	}
+	.footer-link:last-child {
+		margin-bottom: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-b .nav-item {
+		margin-bottom: 10px;
+	}
+	.navbar-b .nav-item:last-child {
+		margin-bottom: 0px;
+	}
+	.home-area {
+		padding-top: 150px;
+	}
+	.home-area .home-content h1 {
+		font-size: 33px;
+		line-height: 1.3;
+	}
+	.home-area .home-content p {
+		font-size: 15px;
+		line-height: 1.3;
+	}
+	.home-image {
+		margin-top: 30px;
+	}
+	.about-img {
+		margin-bottom: 30px;
+	}
+	.about-info {
+		padding-right: 0;
+	}
+	.feature-item.text-right.feature-left-content {
+		padding-left: 0;
+		text-align: left !important;
+		margin-bottom: 40px;
+	}
+	.feature-item.text-right.feature-left-content .feature-dot-ring {
+		left: -9px;
+		top: -9px;
+	}
+	.feature-item.text-right.feature-left-content .feature-dot-circle {
+		top: 0;
+		left: 0;
+	}
+	.feature-images {
+		display: none;
+	}
+	.screenshort-slide-content {
+		height: auto;
+	}
+	.screenshort-frame {
+		display: none;
+	}
+	.screenshort-item img {
+		margin: auto;
+		width: 100% !important;
+	}
+	.blog-area .blog-item {
+		margin-bottom: 30px;
+	}
+	.blog-area .blog-item:last-child {
+		margin-bottom: 0px;
+	}
+	.download-area {
+		margin-top: 0;
+	}
+	.footer-link {
+		margin-bottom: 30px;
+	}
+	.footer-link:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 479px) {
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-b .nav-item {
+		margin-bottom: 10px;
+	}
+	.navbar-b .nav-item:last-child {
+		margin-bottom: 0px;
+	}
+	.home-area {
+		padding-top: 150px;
+	}
+	.home-area .home-content h1 {
+		font-size: 33px;
+		line-height: 1.3;
+	}
+	.home-area .home-content p {
+		font-size: 15px;
+		line-height: 1.3;
+	}
+	.home-image {
+		margin-top: 30px;
+	}
+	.section-title h2 {
+		font-size: 30px;
+	}
+	.about-img {
+		margin-bottom: 30px;
+	}
+	.about-info {
+		padding-right: 0;
+	}
+	.about-info h2 {
+		font-size: 25px;
+	}
+	.feature-item.text-right.feature-left-content {
+		padding-left: 0;
+		text-align: left !important;
+		margin-bottom: 40px;
+	}
+	.feature-item.text-right.feature-left-content .feature-dot-ring {
+		left: -9px;
+		top: -9px;
+	}
+	.feature-item.text-right.feature-left-content .feature-dot-circle {
+		top: 0;
+		left: 0;
+	}
+	.feature-item.text-left.feature-right-content {
+		padding-right: 0;
+	}
+	.feature-images {
+		display: none;
+	}
+	.screenshort-slide-content {
+		height: auto;
+	}
+	.screenshort-frame {
+		display: none;
+	}
+	.screenshort-item img {
+		margin: auto;
+		width: 80% !important;
+	}
+	.blog-area .blog-item {
+		margin-bottom: 30px;
+	}
+	.blog-area .blog-item:last-child {
+		margin-bottom: 0px;
+	}
+	.download-area {
+		margin-top: 0;
+	}
+	.footer-link {
+		margin-bottom: 30px;
+	}
+	.footer-link:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+
+@media screen and (max-width: 320px) and (min-width: 0px){
+	.navbar-nav {
+		margin-top: 15px;
+	}
+	.navbar-b .nav-item {
+		margin-bottom: 10px;
+	}
+	.navbar-b .nav-item:last-child {
+		margin-bottom: 0px;
+	}
+	.home-area {
+		padding-top: 150px;
+	}
+	.home-area .home-content h1 {
+		font-size: 27px;
+		line-height: 1.3;
+	}
+	.home-area .home-content p {
+		font-size: 15px;
+		line-height: 1.3;
+	}
+	.home-content .button-1 {
+		margin-left: 0;
+	}
+	.home-image {
+		margin-top: 30px;
+	}
+	.section-title h2 {
+		font-size: 25px;
+	}
+	.about-img {
+		margin-bottom: 30px;
+	}
+	.about-info {
+		padding-right: 0;
+	}
+	.about-info h2 {
+		font-size: 20px;
+	}
+	.feature-item.text-right.feature-left-content {
+		padding-left: 0;
+		text-align: left !important;
+		margin-bottom: 40px;
+	}
+	.feature-item.text-right.feature-left-content .feature-dot-ring {
+		left: -9px;
+		top: -9px;
+	}
+	.feature-item.text-right.feature-left-content .feature-dot-circle {
+		top: 0;
+		left: 0;
+	}
+	.feature-item.text-left.feature-right-content {
+		padding-right: 0;
+	}
+	.feature-images {
+		display: none;
+	}
+	.screenshort-slide-content {
+		height: auto;
+	}
+	.screenshort-frame {
+		display: none;
+	}
+	.screenshort-item img {
+		margin: auto;
+		width: 70% !important;
+	}
+	.testimonial-content-inner .testimonial-text p {
+		font-size: 14px;
+	}
+	.blog-area .blog-item {
+		margin-bottom: 30px;
+	}
+	.blog-area .blog-item:last-child {
+		margin-bottom: 0px;
+	}
+	.download-area {
+		margin-top: 0;
+	}
+	.download-app-text h2 {
+		font-size: 25px;
+	}
+	.footer-mobile-number a {
+		font-size: 20px;
+	}
+	.footer-link {
+		margin-bottom: 30px;
+	}
+	.footer-link:last-child {
+		margin-bottom: 0px;
+	}
+
+}
